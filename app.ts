@@ -44,18 +44,44 @@
 // getData(studentList)
 
 
-class Students {
-    private _name:string;
+// class Students {
+//     // private _name:string;
 
-    constructor(name:string){
-        this._name = name;
-    }
+//     // constructor(name:string){
+//     //     this._name = name;
+//     // }
 
-    getData(): string
-    {
-        return this._name
-    }
+//     // getData(): string
+//     // {
+//     //     return this._name
+//     // }
+//     constructor(private name:string){
+//         }
+    
+//         getData(): string
+//         {
+//             return this.name
+//         }
+// }
+
+// let s = new Students("chetan")
+// console.log(s.getData())
+
+// generics
+interface StudType{
+    name:string,
+    age:number,
 }
 
-let s = new Students("chetan")
-console.log(s.getData())
+let studentList : Array <StudType> = [
+    { name: "test",age: 30},
+    { name: "test2",age: 20}
+]
+
+const getData = (studentList)=>{
+    for(let i=0;i<studentList.length;i++){
+            let elem = studentList[i]
+            console.log("e",elem)
+        }
+}
+getData(studentList)
