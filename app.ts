@@ -1,3 +1,4 @@
+import {StudType} from  "./StudType"
 // let stud  ={
 // name: "test",
 // age: 30,
@@ -68,10 +69,6 @@
 // console.log(s.getData())
 
 // generics
-interface StudType{
-    name:string,
-    age:number,
-}
 
 let studentList : Array <StudType> = [
     { name: "test",age: 30},
