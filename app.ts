@@ -1,4 +1,9 @@
-import {StudType} from  "./StudType"
+/// <reference path="./nameSpace_Stud.ts" />
+let total = nameSpace_Stud.Fee(1000);
+console.log(total)
+
+
+//import {StudType} from  "./StudType"
 // let stud  ={
 // name: "test",
 // age: 30,
@@ -70,15 +75,15 @@ import {StudType} from  "./StudType"
 
 // generics
 
-let studentList : Array <StudType> = [
-    { name: "test",age: 30},
-    { name: "test2",age: 20}
-]
+// let studentList : Array <StudType> = [
+//     { name: "test",age: 30},
+//     { name: "test2",age: 20}
+// ]
 
-const getData = (studentList)=>{
-    for(let i=0;i<studentList.length;i++){
-            let elem = studentList[i]
-            console.log("e",elem)
-        }
-}
-getData(studentList)
+// const getData = (studentList)=>{
+//     for(let i=0;i<studentList.length;i++){
+//             let elem = studentList[i]
+//             console.log("e",elem)
+//         }
+// }
+// getData(studentList)

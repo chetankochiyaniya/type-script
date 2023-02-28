@@ -1,5 +1,7 @@
-"use strict";
-exports.__esModule = true;
+/// <reference path="./nameSpace_Stud.ts" />
+var total = nameSpace_Stud.Fee(1000);
+console.log(total);
+//import {StudType} from  "./StudType"
 // let stud  ={
 // name: "test",
 // age: 30,
@@ -55,14 +57,14 @@ exports.__esModule = true;
 // let s = new Students("chetan")
 // console.log(s.getData())
 // generics
-var studentList = [
-    { name: "test", age: 30 },
-    { name: "test2", age: 20 }
-];
-var getData = function (studentList) {
-    for (var i = 0; i < studentList.length; i++) {
-        var elem = studentList[i];
-        console.log("e", elem);
-    }
-};
-getData(studentList);
+// let studentList : Array <StudType> = [
+//     { name: "test",age: 30},
+//     { name: "test2",age: 20}
+// ]
+// const getData = (studentList)=>{
+//     for(let i=0;i<studentList.length;i++){
+//             let elem = studentList[i]
+//             console.log("e",elem)
+//         }
+// }
+// getData(studentList)
