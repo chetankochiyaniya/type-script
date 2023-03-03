@@ -1,89 +1,102 @@
-/// <reference path="./nameSpace_Stud.ts" />
-let total = nameSpace_Stud.Fee(1000);
-console.log(total)
+// /// <reference path="./nameSpace_Stud.ts" />
+// let total = nameSpace_Stud.Fee(1000);
+// console.log(total)
 
 
-//import {StudType} from  "./StudType"
-// let stud  ={
-// name: "test",
-// age: 30,
-// phone: 12345678902
-// }
+// //import {StudType} from  "./StudType"
+// // let stud  ={
+// // name: "test",
+// // age: 30,
+// // phone: 12345678902
+// // }
 
-// let studentList = [
-//     { name: "test",age: 30},
-//     { name: "test2",age: 20}
-// ]
+// // let studentList = [
+// //     { name: "test",age: 30},
+// //     { name: "test2",age: 20}
+// // ]
 
-// for(let i=0;i<studentList.length;i++){
-//     let elem = studentList[i]
-//     console.log("e",elem)
-// }
+// // for(let i=0;i<studentList.length;i++){
+// //     let elem = studentList[i]
+// //     console.log("e",elem)
+// // }
 
-// studentList.push(stud)
-// console.log(studentList)
+// // studentList.push(stud)
+// // console.log(studentList)
 
-// enum LanguageName {a,b,c}
-
-
-//interface
-// interface StudType{
-//     name:string,
-//     age:number,
-// }
-
-// let stud : StudType ={
-//     name: "test",
-//     age: 30,
-//     }
-//     let studentList : StudType[] = [
-//             { name: "test",age: 30},
-//             { name: "test2",age: 20}
-//         ]
-// const getData = (studentList :StudType[])=>{
-//     for(let i=0;i<studentList.length;i++){
-//             let elem = studentList[i]
-//             console.log("e",elem)
-//         }
-// }
-
-// getData(studentList)
+// // enum LanguageName {a,b,c}
 
 
-// class Students {
-//     // private _name:string;
+// //interface
+// // interface StudType{
+// //     name:string,
+// //     age:number,
+// // }
 
-//     // constructor(name:string){
-//     //     this._name = name;
-//     // }
+// // let stud : StudType ={
+// //     name: "test",
+// //     age: 30,
+// //     }
+// //     let studentList : StudType[] = [
+// //             { name: "test",age: 30},
+// //             { name: "test2",age: 20}
+// //         ]
+// // const getData = (studentList :StudType[])=>{
+// //     for(let i=0;i<studentList.length;i++){
+// //             let elem = studentList[i]
+// //             console.log("e",elem)
+// //         }
+// // }
 
-//     // getData(): string
-//     // {
-//     //     return this._name
-//     // }
-//     constructor(private name:string){
-//         }
+// // getData(studentList)
+
+
+// // class Students {
+// //     // private _name:string;
+
+// //     // constructor(name:string){
+// //     //     this._name = name;
+// //     // }
+
+// //     // getData(): string
+// //     // {
+// //     //     return this._name
+// //     // }
+// //     constructor(private name:string){
+// //         }
     
-//         getData(): string
-//         {
-//             return this.name
-//         }
-// }
+// //         getData(): string
+// //         {
+// //             return this.name
+// //         }
+// // }
 
-// let s = new Students("chetan")
-// console.log(s.getData())
+// // let s = new Students("chetan")
+// // console.log(s.getData())
 
-// generics
+// // generics
 
-// let studentList : Array <StudType> = [
-//     { name: "test",age: 30},
-//     { name: "test2",age: 20}
-// ]
+// // let studentList : Array <StudType> = [
+// //     { name: "test",age: 30},
+// //     { name: "test2",age: 20}
+// // ]
 
-// const getData = (studentList)=>{
-//     for(let i=0;i<studentList.length;i++){
-//             let elem = studentList[i]
-//             console.log("e",elem)
-//         }
-// }
-// getData(studentList)
+// // const getData = (studentList)=>{
+// //     for(let i=0;i<studentList.length;i++){
+// //             let elem = studentList[i]
+// //             console.log("e",elem)
+// //         }
+// // }
+// // getData(studentList)
+
+let test : Function;
+
+let test2; 
+
+ (test =()=>{
+    console.log("test")
+})();
+
+ (test2 =()=>{
+    console.log("test2")
+})();
+test2

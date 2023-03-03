@@ -1,3 +1,4 @@
+// comple nameSpace is diffrent 
 var nameSpace_Stud;
 (function (nameSpace_Stud) {
     function Fee(num) {
