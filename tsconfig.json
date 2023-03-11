@@ -1,0 +1,23 @@
+// {
+//   "compilerOptions": {
+//     "lib": ["es6", "dom", "es2017", "es2016","ES2016.Array.Include"],
+//     "target": "ES2019",
+//     "module": "ESNext",
+//     "moduleResolution": "node"
+//   }
+// }
+{
+  "compilerOptions": {
+      // "allowJs": true,
+        "target": "ES2016",
+        "module": "ES6",
+  }
+}
+// {
+//   "compilerOptions": {
+//     "target": "esnext",
+//     "module": "esnext",
+//     "lib": ["es2022"],
+//     "strict": true
+//   }
+// }

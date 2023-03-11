@@ -1,0 +1,152 @@
+
+@media (min-width:696px ){
+    .hyp-menu {
+        inset: 0px auto auto -155px !important;
+    }    
+}
+@media (max-width:696px) {
+    .hyp-menu {
+        inset: none !important;
+    }
+  }
+
+@media (max-width:405px) {
+  .show2{
+    display: inline !important;
+  }
+  .show1{
+    display: none;
+  }
+  .container{
+    min-width: 320px;
+  }
+
+}
+
+body {
+    font-size: 15px;
+    background-color: #000000;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Itim';
+    color: white;
+    font-size: 40px;
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgb(255, 255, 255) 0px 1px 5px 1px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.btn-width {
+    width: -webkit-fill-available;
+    height: 36px;
+    line-height: normal;
+}
+
+.btn-width2 {
+    width: -webkit-fill-available;
+    height: 36px;
+    line-height: normal;
+}
+
+.trigo-btn-width {
+    width: -webkit-fill-available;
+    height: 35px;
+    line-height: normal;
+    background-color: rgb(0, 0, 0);
+    border: none;
+}
+
+.hyp-btn {
+    width: -webkit-fill-available;
+    height: 36px;
+    line-height: normal;
+}
+
+.cal-width {
+    width: 400px;
+}
+
+input {
+    width: inherit;
+    height: 70px;
+    text-align: end;
+    font-size: 30px;
+    background-color: black;
+    box-shadow: rgb(255 255 255) 0px 1px 5px 1px;
+    margin-bottom: 7px;
+    color: white;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.col-5 {
+    width: 40.050% !important;
+}
+
+.col-2 {
+    width: 20.056667%;
+}
+
+.dropdown-menu {
+    min-width: 230px;
+    padding: 1px;
+    background-color: #222224 !important;
+
+}
+
+.hyp-menu {
+    padding: 0px !important;
+}
+
+.menu-size {
+    transform: translate3d(0px, 35px, 0px) !important;
+}
+
+.btn2-show {
+    display: none;
+}
+
+button:hover {
+    background-color: rgb(0, 153, 255) !important;
+}
+
+button{
+    text-transform: none;
+    border: none;
+    border-radius: 5px;
+    margin: 1px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: rgb(255 255 255) 0px 0px 3px 0px;
+    margin: 2px;
+    font-weight: 600;
+}
+
+button:disabled{
+    background-color: rgba(128, 128, 128, 0.5);
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.drop-btn-color button{
+    background-color: #222224 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.drop-btn-color button:hover {
+    background-color: rgb(0, 153, 255) !important;
+}
+
+.show2{
+    display: none;
+}
